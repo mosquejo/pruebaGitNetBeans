@@ -20,11 +20,9 @@ public class PruebaGitNetBeans {
         
         Scanner input = new Scanner(System.in);
         
-        System.out.print("Please enter first name: ");
-        String firstName = input.nextLine();
-        
-        System.out.print("Please enter last name: ");
-        String lastName = input.nextLine();
+        System.out.print("Please enter the name (First Name, Last Name): ");
+        String firstName = input.next();       
+        String lastName = input.next();
         
         
         Prueba prueba1 = new Prueba(firstName,lastName);
