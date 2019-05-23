@@ -61,7 +61,15 @@ public class Prueba2 extends Prueba{
         this.id = id;
         this.tel = tel;
         this.salary = salary;   
+    }
+    
+    public Prueba2(int id, int tel, int salary){
+        super();
+        this.id = id;
+        this.tel = tel;
+        this.salary = salary;   
     } 
+    
     
     @Override
     public String toString() {
