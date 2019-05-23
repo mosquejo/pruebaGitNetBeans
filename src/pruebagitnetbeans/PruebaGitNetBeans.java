@@ -18,11 +18,16 @@ public class PruebaGitNetBeans {
      */
     public static void main(String[] args) {
         
-        Prueba prueba1 = new Prueba();
         Scanner input = new Scanner(System.in);
         
         System.out.print("Please enter first name: ");
         String firstName = input.nextLine();
+        
+        System.out.print("Please enter last name: ");
+        String lastName = input.nextLine();
+        
+        
+        Prueba prueba1 = new Prueba(firstName,lastName);
                 
     }
     

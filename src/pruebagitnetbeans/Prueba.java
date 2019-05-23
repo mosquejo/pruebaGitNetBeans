@@ -41,4 +41,9 @@ public class Prueba {
     private String firstName;
     private String lastName;
     
+    public Prueba(String firstName, String lastName){
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+    
 }
