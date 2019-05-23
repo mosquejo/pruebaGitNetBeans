@@ -63,4 +63,9 @@ public class Prueba2 extends Prueba{
         this.salary = salary;   
     } 
     
+    @Override
+    public String toString() {
+        return "First Name: "+this.getFirstName() + "\nLast Name: " + this.getLastName() + "\nID: " + this.id+"\ntel: "+this.tel+"\nSalary: "+this.salary;
+    }
+    
 }
