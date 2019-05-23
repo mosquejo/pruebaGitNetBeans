@@ -46,4 +46,9 @@ public class Prueba {
         this.lastName = lastName;
     }
     
+    @Override
+    public String toString() {
+        return "First Name: "+this.firstName +"\nLast Name: "+this.lastName;
+    }
+    
 }

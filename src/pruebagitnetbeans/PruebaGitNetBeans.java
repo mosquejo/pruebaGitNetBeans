@@ -28,6 +28,8 @@ public class PruebaGitNetBeans {
         
         
         Prueba prueba1 = new Prueba(firstName,lastName);
+        
+        System.out.println(prueba1);
                 
     }
     
